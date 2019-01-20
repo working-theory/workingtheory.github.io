@@ -1,0 +1,8 @@
+# IDE files
+.idea
+.ideaDataSources
+dataSources
+.shelf
+*.iml
+*.iws
+*.ipr

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+header
+{
+	background-color: #1C4F9D;
+	border-color: #1C4F9D;
+	border-bottom-color: #DADADA;
+}
+
+header .fa
+{
+	color: #FFFFFF;
+}
+
+.app-title, header .fa-globe
+{
+	color: #FFFFFF;
+
+}
+
+.sub-menu > li.active
+{
+	border-left-color: #1C4F9D;
+}
+
+.fa
+{
+	color: #1C4F9D;
+}
+

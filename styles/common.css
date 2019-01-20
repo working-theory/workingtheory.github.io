@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*
+{
+	color: #555555;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+	zoom: 1;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration: none !important;
+	zoom: 1;
+}
+
+body
+{
+	border: 0px #DADADA solid;
+}
+
+header, footer, nav, div, span, section, form, h1, h2, h3, h4, h5, h6, input, table, tbody, thead, tfoot, tr, th, td, ul, li
+{
+	border: 0px #DADADA solid;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0px;
+}
+
+h1
+{
+	font-size: 1.8rem;
+}
+
+h2
+{
+	font-size: 1.6rem;
+}
+
+h3
+{
+	font-size: 1.4rem;
+}
+
+h4
+{
+	font-size: 1.3rem;
+}
+
+h5
+{
+	font-size: 1.2rem;
+}
+
+h6
+{
+	font-size: 1.15rem;
+}
+
+input[type=text], input[type=number], input[type=password], input[type=email], input[type=search], textarea
+{
+	line-height: 30px;
+	font-size: inherit;
+	font-family: inherit;
+	background-color: transparent;
+	border: 1px #DDE6E9 solid;
+	border-radius: 3px;
+	transition: all 400ms;
+}
+
+textarea
+{
+	min-height: 5rem;
+	line-height: 1.4rem;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus
+{
+	background-color: #EFF4FF;
+	border-color: #AAB3B6 !important;
+}
+
+input[type=checkbox]
+{
+	float: left;
+	height: 20px !important;
+	width: auto !important;
+	line-height: 20px;
+	margin-right: 10px;
+}
+
+button, input[type=button], input[type=submit], input[type=reset]
+{
+	line-height: 26px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	padding: 2px 20px 3px 20px;
+	cursor: pointer;
+	overflow: visible;
+}
+
